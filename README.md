@@ -1,5 +1,5 @@
-# 🚦 RoadSafe India
-### Data-Driven Road Safety Analytics for Safer & More Sustainable Urban Planning
+# RoadSafe India
+### Data-Driven Road Safety Analytics for Safer and Sustainable Urban Planning
 
 [![Python Version](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-1.55-FF4B4B.svg)](https://streamlit.io/)
@@ -9,11 +9,11 @@
 
 ---
 
-## 📌 Project Overview
-**RoadSafe India** is an end-to-end road-safety data analytics pipeline, interactive decision-support dashboard, and computer-vision proof-of-concept. Developed as part of the **IBM & AICTE SkillsBuild Internship Program** (supported by **BharatCares**), this platform bridges the gap between macro-level Indian road crash records and actionable civil engineering / urban planning interventions.
+## Project Overview
+**RoadSafe India** is an end-to-end road safety data analytics pipeline, interactive decision-support dashboard, and computer vision proof-of-concept. Developed as part of the **AICTE IBM SkillsBuild Internship Program** (supported by **BharatCares**), this platform bridges the gap between macro-level Indian road crash records and actionable civil engineering and urban planning interventions.
 
-### 🔮 Future Scope & Intelligent Transportation Integration
-In smart city engineering, evidence-based safety intelligence forms the empirical bedrock for high-level transportation planning. **RoadSafe India** provides the **Empirical Safety Intelligence Tier**, analyzing historical accident records and edge traffic sensors to pinpoint *which* urban corridors, junctions, or vulnerable road users suffer disproportionate casualties. This guides municipal authorities and transportation engineers on *where* to run high-resolution spatial inspections and microscopic traffic flow simulations (SUMO / PTV VISSIM).
+### Future Scope and System Architecture
+In modern smart city engineering, evidence-based safety intelligence provides the empirical foundation for transportation planning. **RoadSafe India** delivers the safety intelligence tier, analyzing historical accident records and edge traffic sensors to identify high-risk corridors, complex junctions, and vulnerable road users. This guides municipal authorities on prioritizing high-resolution spatial audits and microscopic traffic flow simulations.
 
 ```
 +----------------------------------------------------------------------------------------------------+
@@ -38,18 +38,18 @@ In smart city engineering, evidence-based safety intelligence forms the empirica
 
 ---
 
-## 📊 Core Features
+## Core Features
 
-- **🇮🇳 National Longitudinal Trends (2014–2020):** Multi-year accident volume, fatality trajectory, and Year-over-Year (YoY) growth calculations across 36 Indian States and UTs.
-- **🏙️ 50 Million-Plus Cities Vulnerability Quadrants:** Interactive scatter matrix mapping Crash Volume against **Accident Severity Index (ASI)** to detect high-lethality corridors.
-- **🛣️ Infrastructure & Contributing Factors Deep-Dive:** Empirical breakdown of road classifications (NH, SH, Arterials), junction types (4-arm, T-junction, roundabouts), environmental weather, and 24-hour diurnal patterns.
-- **🚶 Vulnerable Road User (VRU) Diagnostics:** Quantifying the fatality exposure of pedestrians, motorized two-wheelers, and cyclists (>53% of national casualties).
-- **🏗️ Indian Road Congress (IRC) Engineering Standards Matrix:** Mapping high-risk conditions to **IRC:37** (Flexible Pavements), **IRC:58** (Rigid Concrete Pavements), **IRC:SP:84/87** (Highways), and specialized surface materials (Stone Matrix Asphalt [SMA], High-Friction Surface Treatments [HFST]).
-- **📹 Edge-Sensor CCTV Vehicle Counting PoC:** Privacy-compliant computer vision module with virtual tripwire vehicle classification, traffic flow estimation, and ground-truth validation.
+- **National Longitudinal Trends (2014–2020):** Multi-year accident volume, fatality trajectory, and Year-over-Year (YoY) growth calculations across 36 Indian States and UTs.
+- **50 Million-Plus Cities Vulnerability Quadrants:** Interactive scatter matrix mapping Crash Volume against **Accident Severity Index (ASI)** to detect high-lethality corridors.
+- **Infrastructure & Contributing Factors Analysis:** Empirical breakdown of road classifications (NH, SH, Arterials), junction configurations (4-arm, T-junction, roundabouts), weather conditions, and 24-hour diurnal patterns.
+- **Vulnerable Road User (VRU) Diagnostics:** Quantifying the fatality exposure of pedestrians, motorized two-wheelers, and cyclists (>53% of national casualties).
+- **Indian Road Congress (IRC) Engineering Standards Matrix:** Mapping high-risk conditions to **IRC:37** (Flexible Pavements), **IRC:58** (Rigid Concrete Pavements), **IRC:SP:84/87** (Highways), and specialized surface materials (Stone Matrix Asphalt [SMA], High-Friction Surface Treatments [HFST]).
+- **Edge-Sensor CCTV Vehicle Counting PoC:** Privacy-compliant computer vision module with virtual tripwire vehicle classification, traffic flow estimation, and ground-truth validation.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Core Language:** Python 3.13
 - **Data Engineering & Analytics:** `pandas`, `numpy`
@@ -60,7 +60,7 @@ In smart city engineering, evidence-based safety intelligence forms the empirica
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 AICTE-IBM-SkillsBuild-BharatCares-Data-Analytics-with-AI-Internship/
@@ -104,7 +104,7 @@ AICTE-IBM-SkillsBuild-BharatCares-Data-Analytics-with-AI-Internship/
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### 1. Clone the Repository
 ```bash
@@ -119,7 +119,6 @@ pip install -r requirements.txt
 
 ### 3. Run Data Ingestion & Cleaning Pipeline
 ```bash
-# Generate raw datasets and run the reproducible cleaning pipeline
 python src/data_builder.py
 python src/data_cleaner.py
 ```
@@ -133,26 +132,16 @@ python -m pytest tests/
 ```bash
 streamlit run dashboard/app.py
 ```
-*Open your browser and navigate to: `http://localhost:8501`*
+Open your browser and navigate to: `http://localhost:8501`
 
 ---
 
-## 🎓 Evaluation & Viva Presentation Speaking Points
-
-When presenting this project to your evaluators or jury:
-1. **Explain the Motivation:** *"India loses over 1.3 lakh lives annually to road crashes. Our goal is to convert aggregate MoRTH statistics into spatial and engineering decisions."*
-2. **Highlight the Accident Severity Index (ASI):** *"A high crash volume does not always equal high lethality. While metros like Delhi have high crash counts, tier-2 cities like Agra and Kanpur have high Severity Indexes (over 40 fatalities per 100 crashes), requiring urgent trauma and speed management."*
-3. **Connect to Urban Planning:** *"We translate data into IRC standards. For example, high skidding crashes on curved approaches lead directly to recommending High-Friction Surface Treatments (HFST) under IRC:SP:88."*
-4. **Demonstrate the CCTV Sensor PoC:** *"Show the CCTV tripwire counter on Page 5. Explain how edge sensors measure localized traffic flow (exposure rate) to feed real-time transportation intelligence models."*
-
----
-
-## 📜 Data Grounding & Attribution
+## Data Grounding & Attribution
 Data sourced from the **Transport Research Wing (TRW), Ministry of Road Transport and Highways (MoRTH)**, Government of India, and Open Government Data (data.gov.in).
 
 ---
 
-## 👤 Author
+## Author
 **Arya**  
 Computer Engineering Student  
 GitHub: [@Aarya-505](https://github.com/Aarya-505)  
