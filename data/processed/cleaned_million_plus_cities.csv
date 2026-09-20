@@ -1,0 +1,51 @@
+City,State,Total_Accidents,Persons_Killed,Persons_Injured,Severity_Index,Injury_per_100_Accidents,Rank_Accidents,Rank_Fatalities,Rank_Severity,Accident_Share_%,Fatality_Share_%
+Delhi,Delhi,4178,1196,3662,28.63,87.65,1,1,25,6.98,8.12
+Bengaluru,Karnataka,3236,657,2690,20.3,83.13,2,2,37,5.41,4.46
+Indore,Madhya Pradesh,3228,365,2780,11.31,86.12,3,10,44,5.39,2.48
+Chennai,Tamil Nadu,3058,563,2981,18.41,97.48,4,4,39,5.11,3.82
+Bhopal,Madhya Pradesh,2678,219,2198,8.18,82.08,5,33,48,4.47,1.49
+Jabalpur,Madhya Pradesh,2275,234,1970,10.29,86.59,6,30,46,3.8,1.59
+Jaipur,Rajasthan,2038,642,1695,31.5,83.17,7,3,20,3.41,4.36
+Hyderabad,Telangana,1902,246,1780,12.93,93.59,8,24,42,3.18,1.67
+Mumbai,Maharashtra,1812,349,1740,19.26,96.03,9,11,38,3.03,2.37
+Kolkata,West Bengal,1729,203,1545,11.74,89.36,10,34,43,2.89,1.38
+Gwalior,Madhya Pradesh,1684,178,1420,10.57,84.32,11,42,45,2.81,1.21
+Thiruvananthapuram,Kerala,1620,130,1710,8.02,105.56,12,46,49,2.71,0.88
+Kochi,Kerala,1540,115,1620,7.47,105.19,13,47,50,2.57,0.78
+Lucknow,Uttar Pradesh,1435,521,882,36.31,61.46,14,5,17,2.4,3.54
+Raipur,Chhattisgarh,1420,390,1180,27.46,83.1,15,9,30,2.37,2.65
+Ahmedabad,Gujarat,1245,335,1020,26.91,81.93,16,13,32,2.08,2.27
+Kozhikode,Kerala,1180,110,1290,9.32,109.32,17,48,47,1.97,0.75
+Kanpur,Uttar Pradesh,1150,510,720,44.35,62.61,18,6,8,1.92,3.46
+Nagpur,Maharashtra,1120,245,960,21.88,85.71,19,25,36,1.87,1.66
+Visakhapatnam,Andhra Pradesh,1050,295,1120,28.1,106.67,20,19,28,1.75,2.0
+Pune,Maharashtra,1018,305,780,29.96,76.62,21,18,22,1.7,2.07
+Agra,Uttar Pradesh,980,480,610,48.98,62.24,22,7,4,1.64,3.26
+Durg-Bhilainagar,Chhattisgarh,960,240,840,25.0,87.5,23,27,34,1.6,1.63
+Vijayawada,Andhra Pradesh,920,240,890,26.09,96.74,24,27,33,1.54,1.63
+Prayagraj (Allahabad),Uttar Pradesh,910,410,630,45.05,69.23,25,8,7,1.52,2.78
+Patna,Bihar,890,310,630,34.83,70.79,26,16,18,1.49,2.1
+Ghaziabad,Uttar Pradesh,840,340,580,40.48,69.05,27,12,11,1.4,2.31
+Surat,Gujarat,820,240,710,29.27,86.59,28,27,23,1.37,1.63
+Thane,Maharashtra,820,225,690,27.44,84.15,28,32,31,1.37,1.53
+Jodhpur,Rajasthan,780,295,690,37.82,88.46,30,19,13,1.3,2.0
+Meerut,Uttar Pradesh,760,325,510,42.76,67.11,31,14,9,1.27,2.21
+Varanasi,Uttar Pradesh,740,290,520,39.19,70.27,32,21,12,1.24,1.97
+Nashik,Maharashtra,690,280,510,40.58,73.91,33,22,10,1.15,1.9
+Coimbatore,Tamil Nadu,680,195,620,28.68,91.18,34,35,24,1.14,1.32
+Vadodara,Gujarat,680,190,580,27.94,85.29,34,37,29,1.14,1.29
+Bareilly,Uttar Pradesh,640,310,420,48.44,65.62,36,16,5,1.07,2.1
+Navi Mumbai,Maharashtra,630,180,510,28.57,80.95,37,41,26,1.05,1.22
+Kota,Rajasthan,620,190,540,30.65,87.1,38,37,21,1.04,1.29
+Ranchi,Jharkhand,610,230,450,37.7,73.77,39,31,14,1.02,1.56
+Madurai,Tamil Nadu,590,145,530,24.58,89.83,40,44,35,0.99,0.98
+Aurangabad,Maharashtra,560,195,440,34.82,78.57,41,35,19,0.94,1.32
+Ludhiana,Punjab,540,320,340,59.26,62.96,42,15,1,0.9,2.17
+Aligarh,Uttar Pradesh,530,260,360,49.06,67.92,43,23,3,0.89,1.76
+Dhanbad,Jharkhand,520,190,390,36.54,75.0,44,37,15,0.87,1.29
+Rajkot,Gujarat,510,145,430,28.43,84.31,45,44,27,0.85,0.98
+Moradabad,Uttar Pradesh,490,245,310,50.0,63.27,46,25,2,0.82,1.66
+Jamshedpur,Jharkhand,480,175,360,36.46,75.0,47,43,16,0.8,1.19
+Amritsar,Punjab,410,185,290,45.12,70.73,48,40,6,0.69,1.26
+Chandigarh,Chandigarh,342,53,275,15.5,80.41,49,49,40,0.57,0.36
+Srinagar,Jammu and Kashmir,310,42,380,13.55,122.58,50,50,41,0.52,0.29

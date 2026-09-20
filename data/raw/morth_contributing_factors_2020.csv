@@ -1,0 +1,34 @@
+Category_Type,Factor_Name,Total_Accidents,Persons_Killed,Persons_Injured
+Road Classification,National Highways,116496,47984,109312
+Road Classification,State Highways,90695,33148,86835
+Road Classification,Other Urban & District Roads,158947,50582,152132
+Junction Configuration,T-Junction,48210,16930,44250
+Junction Configuration,Y-Junction,29840,10420,27690
+Junction Configuration,4-Arm Cross Junction,54320,18850,51400
+Junction Configuration,Roundabout / Traffic Circle,14650,4520,13900
+Junction Configuration,Staggered Junction,12380,4110,11840
+Junction Configuration,Uncontrolled / Open Road Section,206738,76884,199199
+Traffic Cause,Over-speeding,265343,91239,252115
+Traffic Cause,Drunken Driving / Under Influence,8355,3322,7014
+Traffic Cause,Driving on Wrong Side / Lane Indiscipline,20228,7332,18910
+Traffic Cause,Jumping Red Light,4380,1420,4010
+Traffic Cause,Use of Mobile Phones while Driving,6753,2511,5980
+Traffic Cause,Other Causes / Human Errors,61079,25890,60250
+Weather Condition,Fine / Clear Sky,268412,93450,256820
+Weather Condition,Rainy / Wet Pavement,34210,12890,31450
+Weather Condition,Foggy / Misty (Low Visibility),41530,17240,38120
+Weather Condition,Hail / Sleet / Severe Weather,6850,2414,6140
+Weather Condition,Other / Adverse Weather,15136,5720,15749
+Road Surface Feature,Normal / Flat Straight Road,242150,84300,231400
+Road Surface Feature,Curved / Sharp Turn Section,58420,21940,55210
+Road Surface Feature,Potholed / Degraded Surface,14710,5620,13450
+Road Surface Feature,Ongoing Road Works / Diversion,12840,4980,11920
+Road Surface Feature,Bridge / Culvert / Approach,21540,8720,20380
+Road Surface Feature,Steep Incline / Ghat Section,16478,6154,15919
+Road User Type,Two-Wheelers (Motorcycles/Scooters),158964,56873,149210
+Road User Type,Pedestrians (VRU),56214,23483,49810
+Road User Type,Cars / Taxis / Jeeps / LMV,64320,21450,62100
+Road User Type,Trucks / Lorries / Heavy Goods,38940,17820,34250
+Road User Type,Buses (Public & Private),18450,6720,19840
+Road User Type,Auto-Rickshaws (3-Wheelers),21450,6128,23149
+Road User Type,Bicycles (Non-Motorized VRU),7800,3150,7920

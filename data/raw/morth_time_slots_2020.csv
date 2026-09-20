@@ -1,0 +1,9 @@
+Time_Slot,Start_Hour,End_Hour,Total_Accidents,Persons_Killed,Persons_Injured
+00:00 - 03:00 (Late Night),0,3,18450,7820,16920
+03:00 - 06:00 (Early Morning),3,6,21340,9150,19480
+06:00 - 09:00 (Morning Rush),6,9,39820,14210,37650
+09:00 - 12:00 (Late Morning Peak),9,12,54210,18940,51920
+12:00 - 15:00 (Afternoon),12,15,52140,17820,50110
+15:00 - 18:00 (Evening Rush),15,18,64890,22450,62410
+18:00 - 21:00 (Night Peak Window),18,21,71240,25980,68340
+21:00 - 24:00 (Late Evening),21,24,44048,15344,41449

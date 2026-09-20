@@ -1,0 +1,453 @@
+/* ==========================================================================
+   RoadSafe India - Enterprise Analytics Theme & Design System
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* --- Root & Typography --- */
+html, body, [class*="css"], .stApp {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    color: #f1f5f9 !important;
+    background-color: #0b0f19 !important;
+}
+
+/* Header bar styling */
+header[data-testid="stHeader"],
+.stAppHeader,
+[data-testid="stHeader"] {
+    background: #0b0f19 !important;
+    background-color: #0b0f19 !important;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.1) !important;
+    z-index: 99 !important;
+}
+
+code, pre, .mono-font {
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* ==========================================================================
+   HEADER ACTIONS (Deploy Button & Hamburger Menu Icon)
+   ========================================================================== */
+
+/* 1. Deploy Button */
+[data-testid="stDeployButton"],
+.stDeployButton,
+[data-testid="stToolbarActions"],
+[data-testid="stHeaderActionElements"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    align-items: center !important;
+    gap: 0.6rem !important;
+}
+
+[data-testid="stDeployButton"] button,
+.stDeployButton button,
+button[title="Deploy this app"] {
+    background: rgba(30, 41, 59, 0.85) !important;
+    color: #38bdf8 !important;
+    border: 1px solid rgba(56, 189, 248, 0.3) !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    padding: 0.35rem 0.9rem !important;
+    transition: all 0.2s ease !important;
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer !important;
+}
+
+[data-testid="stDeployButton"] button:hover,
+.stDeployButton button:hover,
+button[title="Deploy this app"]:hover {
+    background: rgba(56, 189, 248, 0.15) !important;
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.3) !important;
+}
+
+/* 2. Hamburger Menu Icon (3 Horizontal Lines) */
+#MainMenu button,
+[data-testid="stMainMenu"] button,
+button[aria-label="Main menu"],
+[data-testid="stHeaderActionElements"] button:not([title="Deploy this app"]):not([kind="header"]) {
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+    min-width: 2.25rem !important;
+    background-color: rgba(30, 41, 59, 0.85) !important;
+    border: 1px solid rgba(148, 163, 184, 0.25) !important;
+    border-radius: 8px !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='4' y1='6' x2='20' y2='6'%3E%3C/line%3E%3Cline x1='4' y1='12' x2='20' y2='12'%3E%3C/line%3E%3Cline x1='4' y1='18' x2='20' y2='18'%3E%3C/line%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 18px 18px !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    transition: all 0.2s ease !important;
+}
+
+#MainMenu button svg,
+[data-testid="stMainMenu"] button svg,
+button[aria-label="Main menu"] svg {
+    display: none !important;
+}
+
+#MainMenu button:hover,
+[data-testid="stMainMenu"] button:hover,
+button[aria-label="Main menu"]:hover {
+    background-color: rgba(56, 189, 248, 0.18) !important;
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.35) !important;
+}
+
+/* 3. Popover Menu & Dark Styling */
+div[data-baseweb="popover"],
+[data-testid="stMainMenuPopover"],
+[data-testid="stPopover"],
+div[data-testid="stPopover"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 999999 !important;
+}
+
+div[data-baseweb="popover"] > div {
+    background-color: #0f172a !important;
+    border: 1px solid rgba(148, 163, 184, 0.2) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Hide 'Made with Streamlit' branding across all containers & popovers */
+footer,
+[data-baseweb="popover"] hr,
+[data-baseweb="popover"] hr ~ *,
+[data-baseweb="popover"] hr + *,
+[data-baseweb="popover"] ul ~ *,
+[data-baseweb="popover"] ul + *,
+[data-baseweb="popover"] footer,
+[data-baseweb="popover"] a[href*="streamlit"],
+div[data-baseweb="popover"] hr,
+div[data-baseweb="popover"] hr ~ *,
+div[data-baseweb="popover"] hr + *,
+div[data-baseweb="popover"] ul ~ *,
+div[data-baseweb="popover"] ul + *,
+div[data-baseweb="popover"] footer,
+[data-testid="stMainMenuPopover"] hr,
+[data-testid="stMainMenuPopover"] hr ~ *,
+[data-testid="stMainMenuPopover"] hr + *,
+[data-testid="stMainMenuPopover"] ul ~ *,
+[data-testid="stMainMenuPopover"] footer {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    max-height: 0 !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+}
+
+/* 4. Remove Runner / Swimmer / Cyclist SVGs */
+[data-testid="stStatusWidget"] svg,
+[data-testid="stStatusWidget"] img,
+.stAppRunningAnimation {
+    display: none !important;
+}
+
+/* Minimal Top-Right Status Pill */
+[data-testid="stStatusWidget"] {
+    background: rgba(15, 23, 42, 0.9) !important;
+    border: 1px solid rgba(56, 189, 248, 0.25) !important;
+    border-radius: 20px !important;
+    padding: 4px 12px !important;
+    color: #38bdf8 !important;
+}
+
+/* Center-Screen Smooth Circular Spinner when calculating/loading */
+.stApp[data-test-script-state="running"]::after {
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px;
+    margin-left: -24px;
+    border: 3.5px solid rgba(56, 189, 248, 0.15);
+    border-top-color: #38bdf8;
+    border-radius: 50%;
+    animation: roadSafeSpin 0.75s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    z-index: 999999;
+    pointer-events: none;
+    box-shadow: 0 0 24px rgba(56, 189, 248, 0.25);
+}
+
+@keyframes roadSafeSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   HEADER BANNER & BRANDING
+   ========================================================================== */
+.hero-banner {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 14px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.75rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.08) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.hero-title {
+    color: #38bdf8;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hero-subtitle {
+    color: #f8fafc;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-top: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-top: 0.5rem;
+}
+
+.pill-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.65rem;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 6px;
+    color: #cbd5e1;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.pill-tag.accent {
+    background: rgba(56, 189, 248, 0.1);
+    border-color: rgba(56, 189, 248, 0.3);
+    color: #38bdf8;
+}
+
+.pill-tag.live {
+    background: rgba(16, 185, 129, 0.1);
+    border-color: rgba(16, 185, 129, 0.3);
+    color: #34d399;
+}
+
+/* ==========================================================================
+   METRIC & KPI CARDS
+   ========================================================================== */
+.metric-card {
+    background: linear-gradient(180deg, #1e293b 0%, #111827 100%);
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    border-radius: 12px;
+    padding: 1.25rem 1.4rem;
+    color: #f8fafc;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.metric-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #38bdf8, #818cf8);
+    opacity: 0.8;
+}
+
+.metric-card.danger::before {
+    background: linear-gradient(90deg, #f43f5e, #fb7185);
+}
+
+.metric-card.warning::before {
+    background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
+
+.metric-card.purple::before {
+    background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+}
+
+.metric-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.35);
+    border-color: rgba(56, 189, 248, 0.35);
+}
+
+.metric-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.35rem;
+}
+
+.metric-value {
+    font-size: 1.95rem;
+    font-weight: 700;
+    color: #38bdf8;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+}
+
+.metric-subtext {
+    font-size: 0.78rem;
+    color: #94a3b8;
+    margin-top: 0.5rem;
+    line-height: 1.4;
+}
+
+/* ==========================================================================
+   FUTURE SCOPE & INSIGHT CARDS
+   ========================================================================== */
+.scope-card {
+    background: linear-gradient(135deg, #131d31 0%, #0f172a 100%);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 12px;
+    padding: 1.4rem 1.5rem;
+    height: 100%;
+    transition: all 0.25s ease;
+}
+
+.scope-card:hover {
+    border-color: rgba(56, 189, 248, 0.4);
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.scope-icon {
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+    display: inline-block;
+}
+
+.scope-heading {
+    color: #38bdf8;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}
+
+.scope-desc {
+    color: #94a3b8;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    margin: 0;
+}
+
+/* ==========================================================================
+   SIDEBAR & UTILITIES
+   ========================================================================== */
+[data-testid="stSidebar"] {
+    background-color: #0b1120 !important;
+    border-right: 1px solid rgba(148, 163, 184, 0.1) !important;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}
+
+/* Badges */
+.badge-danger {
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.badge-warning {
+    background-color: rgba(245, 158, 11, 0.15);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.badge-success {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Callout Box */
+.planning-callout {
+    background-color: rgba(15, 23, 42, 0.7);
+    border-left: 4px solid #0284c7;
+    border-top: 1px solid rgba(148, 163, 184, 0.1);
+    border-right: 1px solid rgba(148, 163, 184, 0.1);
+    border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+    padding: 1.1rem 1.3rem;
+    border-radius: 0 10px 10px 0;
+    margin: 1.25rem 0;
+    color: #f1f5f9;
+}

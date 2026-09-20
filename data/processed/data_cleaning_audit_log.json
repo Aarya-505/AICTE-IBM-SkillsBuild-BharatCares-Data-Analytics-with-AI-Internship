@@ -1,0 +1,55 @@
+{
+    "pipeline_name": "RoadSafe India Cleaning Pipeline",
+    "executed_at": "2026-09-20T00:40:44.380424",
+    "transformations": {
+        "state_ut": {
+            "initial_rows": 150,
+            "final_rows": 150,
+            "columns": [
+                "State_UT",
+                "Year",
+                "Total_Accidents",
+                "Persons_Killed",
+                "Persons_Injured",
+                "Severity_Index",
+                "YoY_Accident_Change_%",
+                "YoY_Fatality_Change_%"
+            ],
+            "years_covered": [
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020
+            ],
+            "states_count": 37
+        },
+        "million_plus_cities": {
+            "initial_rows": 50,
+            "final_rows": 50,
+            "cities_count": 50,
+            "total_recorded_accidents": 59848,
+            "total_recorded_fatalities": 14733
+        },
+        "contributing_factors": {
+            "initial_rows": 33,
+            "final_rows": 33,
+            "categories": [
+                "Road Classification",
+                "Junction Configuration",
+                "Traffic Cause",
+                "Weather Condition",
+                "Road Surface Feature",
+                "Road User Type"
+            ]
+        },
+        "time_slots": {
+            "initial_rows": 8,
+            "final_rows": 8,
+            "total_accidents": 366138,
+            "peak_accident_slot": "18:00 - 21:00 (Night Peak Window)"
+        }
+    }
+}

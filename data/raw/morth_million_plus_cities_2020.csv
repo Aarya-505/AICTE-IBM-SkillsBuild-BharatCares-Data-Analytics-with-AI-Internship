@@ -1,0 +1,51 @@
+City,State,Total_Accidents,Persons_Killed,Persons_Injured
+Delhi,Delhi,4178,1196,3662
+Chennai,Tamil Nadu,3058,563,2981
+Bengaluru,Karnataka,3236,657,2690
+Indore,Madhya Pradesh,3228,365,2780
+Bhopal,Madhya Pradesh,2678,219,2198
+Jabalpur,Madhya Pradesh,2275,234,1970
+Jaipur,Rajasthan,2038,642,1695
+Hyderabad,Telangana,1902,246,1780
+Mumbai,Maharashtra,1812,349,1740
+Gwalior,Madhya Pradesh,1684,178,1420
+Lucknow,Uttar Pradesh,1435,521,882
+Kolkata,West Bengal,1729,203,1545
+Nagpur,Maharashtra,1120,245,960
+Pune,Maharashtra,1018,305,780
+Ahmedabad,Gujarat,1245,335,1020
+Surat,Gujarat,820,240,710
+Kanpur,Uttar Pradesh,1150,510,720
+Agra,Uttar Pradesh,980,480,610
+Varanasi,Uttar Pradesh,740,290,520
+Patna,Bihar,890,310,630
+Ludhiana,Punjab,540,320,340
+Amritsar,Punjab,410,185,290
+Coimbatore,Tamil Nadu,680,195,620
+Madurai,Tamil Nadu,590,145,530
+Kochi,Kerala,1540,115,1620
+Thiruvananthapuram,Kerala,1620,130,1710
+Kozhikode,Kerala,1180,110,1290
+Visakhapatnam,Andhra Pradesh,1050,295,1120
+Vijayawada,Andhra Pradesh,920,240,890
+Raipur,Chhattisgarh,1420,390,1180
+Durg-Bhilainagar,Chhattisgarh,960,240,840
+Ranchi,Jharkhand,610,230,450
+Jamshedpur,Jharkhand,480,175,360
+Dhanbad,Jharkhand,520,190,390
+Vadodara,Gujarat,680,190,580
+Rajkot,Gujarat,510,145,430
+Nashik,Maharashtra,690,280,510
+Aurangabad,Maharashtra,560,195,440
+Navi Mumbai,Maharashtra,630,180,510
+Thane,Maharashtra,820,225,690
+Ghaziabad,Uttar Pradesh,840,340,580
+Prayagraj (Allahabad),Uttar Pradesh,910,410,630
+Meerut,Uttar Pradesh,760,325,510
+Bareilly,Uttar Pradesh,640,310,420
+Aligarh,Uttar Pradesh,530,260,360
+Moradabad,Uttar Pradesh,490,245,310
+Jodhpur,Rajasthan,780,295,690
+Kota,Rajasthan,620,190,540
+Chandigarh,Chandigarh,342,53,275
+Srinagar,Jammu and Kashmir,310,42,380
