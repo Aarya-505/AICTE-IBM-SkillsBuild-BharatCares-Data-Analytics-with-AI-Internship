@@ -140,9 +140,9 @@ Open your browser and navigate to: `http://localhost:8501`
 
 | Required File | Format | File Name | Description |
 | :--- | :--- | :--- | :--- |
-| **Code File** | `.ipynb` | `AaryaMandke_RoadSafeIndia.ipynb` | Fully executed, self-contained Jupyter notebook containing data cleaning, KPIs, statistical plots, and CV PoC. |
+| **Code File** | `.ipynb` | `AryaMohanraoMandke_RoadSafeIndia.ipynb` | Fully executed, self-contained Jupyter notebook containing data cleaning, KPIs, statistical plots, and CV PoC. |
 | **Requirements File** | `.txt` | `requirements.txt` | Complete list of all Python dependencies required to run the project. |
-| **Project Report** | `.docx` | `AaryaMandke_ProjectReport.docx` | Comprehensive academic & technical project documentation formatted in Microsoft Word (.docx). |
+| **Project Report** | `.docx` | `AryaMohanraoMandke_ProjectReport.docx` | Comprehensive academic & technical project documentation formatted in Microsoft Word (.docx). |
 | **README File** | `.md` | `README.md` | Full repository overview, dataset links, tech stack, setup instructions, and key insights. |
 
 ---
@@ -156,7 +156,7 @@ Official datasets ingested, standardized, and analyzed in this project:
 ---
 
 ## Author
-**Aarya Mandke**  
+**Arya Mohanrao Mandke**  
 Computer Engineering Student  
 GitHub: [@Aarya-505](https://github.com/Aarya-505)  
 *AICTE IBM SkillsBuild BharatCares Data Analytics with AI Internship Project (September 2026)*

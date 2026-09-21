@@ -2,7 +2,7 @@
 
 **An Academic & Technical Project Report**  
 *AICTE IBM SkillsBuild BharatCares Data Analytics with AI Internship Program*  
-**Developer:** Arya (Computer Engineering)  
+**Developer:** Arya Mohanrao Mandke (Computer Engineering)  
 **Date:** September 2026  
 **Repository:** [https://github.com/Aarya-505/AICTE-IBM-SkillsBuild-BharatCares-Data-Analytics-with-AI-Internship](https://github.com/Aarya-505/AICTE-IBM-SkillsBuild-BharatCares-Data-Analytics-with-AI-Internship)
 

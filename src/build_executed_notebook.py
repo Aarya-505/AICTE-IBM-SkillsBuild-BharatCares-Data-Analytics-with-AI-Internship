@@ -29,7 +29,7 @@ def create_roadsafe_notebook():
     cells.append(new_markdown_cell(
         "# 🚦 RoadSafe India: Comprehensive Road Safety Analytics & AI Decision Support\n"
         "### AICTE | IBM SkillsBuild | BharatCares Data Analytics with AI Internship 2026\n\n"
-        "**Author:** Aarya Mandke (Computer Engineering)  \n"
+        "**Author:** Arya Mohanrao Mandke (Computer Engineering)  \n"
         "**Track:** Data Analytics with AI  \n"
         "**Data Source:** Transport Research Wing (TRW), Ministry of Road Transport & Highways (MoRTH), Government of India  \n"
         "**GitHub Repository:** [https://github.com/Aarya-505/AICTE-IBM-SkillsBuild-BharatCares-Data-Analytics-with-AI-Internship](https://github.com/Aarya-505/AICTE-IBM-SkillsBuild-BharatCares-Data-Analytics-with-AI-Internship)\n\n"
@@ -277,10 +277,9 @@ def build_and_execute_all():
     
     # Save notebook to destinations
     targets = [
-        os.path.join(base_dir, "AaryaMandke_RoadSafeIndia.ipynb"),
-        os.path.join(base_dir, "Arya_RoadSafeIndia.ipynb"),
+        os.path.join(base_dir, "AryaMohanraoMandke_RoadSafeIndia.ipynb"),
         os.path.join(base_dir, "notebooks", "01_exploratory_data_analysis.ipynb"),
-        os.path.join(base_dir, "notebooks", "AaryaMandke_RoadSafeIndia.ipynb")
+        os.path.join(base_dir, "notebooks", "AryaMohanraoMandke_RoadSafeIndia.ipynb")
     ]
     
     for t in targets:

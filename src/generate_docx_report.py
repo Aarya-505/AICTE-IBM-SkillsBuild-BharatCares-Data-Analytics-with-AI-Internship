@@ -122,7 +122,7 @@ def generate_report(output_path):
     m_text.font.size = Pt(10.5)
     m_text.font.color.rgb = RGBColor(0, 67, 206)
     
-    m_sub = mp.add_run("Author: Aarya Mandke  |  Track: Data Analytics with AI  |  Date: September 2026\nGitHub Repository: https://github.com/Aarya-505/AICTE-IBM-SkillsBuild-BharatCares-Data-Analytics-with-AI-Internship")
+    m_sub = mp.add_run("Author: Arya Mohanrao Mandke  |  Track: Data Analytics with AI  |  Date: September 2026\nGitHub Repository: https://github.com/Aarya-505/AICTE-IBM-SkillsBuild-BharatCares-Data-Analytics-with-AI-Internship")
     m_sub.font.size = Pt(9.5)
     m_sub.font.color.rgb = RGBColor(100, 100, 100)
     
@@ -346,9 +346,9 @@ def generate_report(output_path):
         p.runs[0].font.size = Pt(10)
         
     deliv_data = [
-        ("1. Complete Code File", "AaryaMandke_RoadSafeIndia.ipynb", "Complete executed Jupyter Notebook with EDA, KPIs, and Visuals (.ipynb)"),
+        ("1. Complete Code File", "AryaMohanraoMandke_RoadSafeIndia.ipynb", "Complete executed Jupyter Notebook with EDA, KPIs, and Visuals (.ipynb)"),
         ("2. Requirements File", "requirements.txt", "Verified Python package dependencies (.txt)"),
-        ("3. Project Report", "AaryaMandke_ProjectReport.docx", "Formatted complete technical project report in Microsoft Word (.docx)"),
+        ("3. Project Report", "AryaMohanraoMandke_ProjectReport.docx", "Formatted complete technical project report in Microsoft Word (.docx)"),
         ("4. README File", "README.md", "Complete repository overview, dataset links, setup guide, and tech stack (.md)")
     ]
     for row_idx, data in enumerate(deliv_data, start=1):
@@ -373,10 +373,8 @@ if __name__ == "__main__":
     
     # Save main submission docx in root and reports/
     file_names = [
-        os.path.join(base_dir, "AaryaMandke_ProjectReport.docx"),
-        os.path.join(base_dir, "Arya_ProjectReport.docx"),
-        os.path.join(base_dir, "reports", "AaryaMandke_ProjectReport.docx"),
-        os.path.join(base_dir, "reports", "Arya_ProjectReport.docx")
+        os.path.join(base_dir, "AryaMohanraoMandke_ProjectReport.docx"),
+        os.path.join(base_dir, "reports", "AryaMohanraoMandke_ProjectReport.docx")
     ]
     
     for fn in file_names:
