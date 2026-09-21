@@ -136,13 +136,27 @@ Open your browser and navigate to: `http://localhost:8501`
 
 ---
 
-## Data Grounding & Attribution
-Data sourced from the **Transport Research Wing (TRW), Ministry of Road Transport and Highways (MoRTH)**, Government of India, and Open Government Data (data.gov.in).
+## AICTE | IBM SkillsBuild | BharatCares Submission Deliverables
+
+| Required File | Format | File Name | Description |
+| :--- | :--- | :--- | :--- |
+| **Code File** | `.ipynb` | `AaryaMandke_RoadSafeIndia.ipynb` | Fully executed, self-contained Jupyter notebook containing data cleaning, KPIs, statistical plots, and CV PoC. |
+| **Requirements File** | `.txt` | `requirements.txt` | Complete list of all Python dependencies required to run the project. |
+| **Project Report** | `.docx` | `AaryaMandke_ProjectReport.docx` | Comprehensive academic & technical project documentation formatted in Microsoft Word (.docx). |
+| **README File** | `.md` | `README.md` | Full repository overview, dataset links, tech stack, setup instructions, and key insights. |
+
+---
+
+## Data Grounding & Dataset Links
+Official datasets ingested, standardized, and analyzed in this project:
+- **MoRTH Official Publications:** [Transport Research Wing (TRW) - Road Accidents in India](https://morth.nic.in/road-accidents-in-india)
+- **Open Government Data (OGD) Portal:** [data.gov.in Road Safety Datasets](https://data.gov.in/)
+- **Processed & Raw Repository Data:** Ingested in the [`data/raw/`](data/raw/) and [`data/processed/`](data/processed/) directories.
 
 ---
 
 ## Author
-**Arya**  
+**Aarya Mandke**  
 Computer Engineering Student  
 GitHub: [@Aarya-505](https://github.com/Aarya-505)  
 *AICTE IBM SkillsBuild BharatCares Data Analytics with AI Internship Project (September 2026)*
